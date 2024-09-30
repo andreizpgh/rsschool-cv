@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrei Zakharov – CV</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__name-wrapper">
+              <h1 class="header__name">Andrei Zakharov</h1>
+            </div>
+            <img
+              src="images/avatar.avif"
+              alt="My Avatar"
+              class="header__avatar"
+            />
+            <nav class="header__links">
+              <ul>
+                <li>
+                  <a href="#contact"> Contact Information </a>
+                </li>
+                <li>
+                  <a href="#about"> About myself </a>
+                </li>
+                <li>
+                  <a href="#skills"> Skills </a>
+                </li>
+                <li>
+                  <a href="#code"> Code Example </a>
+                </li>
+                <li>
+                  <a href="#employment"> Employment History </a>
+                </li>
+                <li>
+                  <a href="#experience"> Experience </a>
+                </li>
+                <li>
+                  <a href="#education"> Education </a>
+                </li>
+                <li>
+                  <a href="#languages"> Languages </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="container">
+          <section class="contact" id="contact">
+            <h2 class="section-title">Contact Information</h2>
+            <ul>
+              <li>
+                <b> Phone: </b>
+                <a href="tel:+375295948014">+375 (29) 594-80-14</a>
+              </li>
+              <li>
+                <b> Email: </b>
+                <a href="mailto:andreizakharov@proton.me"
+                  >andreizakharov@proton.me</a
+                >
+              </li>
+              <li>
+                <b> GitHub: </b>
+                <a href="https://github.com/andreizpgh">andreizpgh</a>
+              </li>
+              <li>
+                <b> Telegram: </b>
+                <a href="https://t.me/andreizptg">andreizptg</a>
+              </li>
+              <li>
+                <b> Discord: </b>
+                <a href="https://discordapp.com/users/andreizpd">andreizpd</a>
+              </li>
+            </ul>
+          </section>
+          <section class="about" id="about">
+            <h2 class="section-title">About Myself</h2>
+            <p>
+              Although I had been interested in programming since high school, I
+              decided to study humanities. I continued programming as a hobby
+              and became involved in the Linux community. I have long made it a
+              habit to use open source tools, including in my academic and
+              scientific pursuits.
+            </p>
+            <p>
+              I have experience with the Neovim and Emacs editors, have used
+              LaTex, and have been exposed to various programming languages
+              including Python, Elisp, Dart (Flutter), and Kotlin.
+            </p>
+            <p>
+              After broadening my horizons and learning a few foreign languages,
+              I decided to turn my hobby into a career.
+            </p>
+          </section>
+          <section class="skills" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3 (SASS/SCSS, BEM)</li>
+              <li>JavaScript/Typesript</li>
+              <li>React</li>
+              <li>Webpack/Gulp/Babel</li>
+              <li>Git, GitHub</li>
+              <li>Neovim, VS Code</li>
+              <li>Figma</li>
+              <li>Linux, Windows</li>
+            </ul>
+          </section>
+          <section class="code" id="code">
+            <h2 class="section-title">Code Example</h2>
+            <pre>
+                    <code class="language-JavaScript">
+function isValidIP(str) {
+  const arr = str.split('.');
+  const regex = /^0\d|[\D]|\s/;
+  
+  if (arr.length !== 4 || arr.some((n) => n.length === 0 || regex.test(n))) {
+    return false;
+  }
+  
+  return arr.every((n) => Number(n) <= 255);
+}
+                    </code>
+                    </pre>
+          </section>
+          <section class="employment" id="employment">
+            <h2 class="section-title">Employment History</h2>
+            <ul class="employment__list">
+              <li>
+                <p><b>English teacher</b></p>
+                <p>Secondary school No. 47 in Vitebsk</p>
+                <p>09.22 – 09.24</p>
+              </li>
+              <li>
+                <p><b>Content Manager</b></p>
+                <p>Craft Machine, LLC</p>
+                <p>05.22 – 08.22</p>
+              </li>
+            </ul>
+          </section>
+          <section class="experience" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <ul class="experience__list">
+              <li>
+                <p><b>Website Project</b></p>
+                <p>
+                  I have created a website for the Festival of Intercultural
+                  Communication (<a
+                    href="https://github.com/andreizpgh/school-project"
+                    >GitHub Repository</a
+                  >)
+                </p>
+                <p>Learned: HTML, CSS, SCSS, BEM, Gulp</p>
+                <a href="https://andreizpgh.github.io/school-project/">
+                  <img
+                    class="experience__link"
+                    src="images/image-link.svg"
+                    alt="Image Link Icon"
+                  />
+                  <img
+                    class="experience__img"
+                    src="images/project-preview.webp"
+                    alt="Project Preview"
+                  />
+                </a>
+              </li>
+              <li>
+                <p><b>Linux and Open-Source</b></p>
+                <p>
+                  I have been using Linux and related open source tools for 5
+                  years.
+                </p>
+                <p>
+                  Learned to: read documentation, be flexible with tools and
+                  programmes, be technically savvy
+                </p>
+                <a href="https://github.com/andreizpgh/fedora-gnome">
+                  <img
+                    class="experience__link"
+                    src="images/image-link.svg"
+                    alt="Image Link Icon"
+                  />
+                  <img
+                    class="experience__img"
+                    src="images/linux.webp"
+                    alt="My Linux Desktop"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="education" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul>
+              <li>
+                Bachelor, Polotsk State University (Romance and Germanic
+                Philology)
+              </li>
+              <li>
+                <a
+                  href="https://welc.wipo.int/lms/verify/index.php?q=eLUpRcpWBb"
+                  >DL-101 General Course on Intellectual Property</a
+                >
+              </li>
+              <li>
+                <a href="https://app.rs.school/certificate/ireuivg2"
+                  >RS School, JavaScript/Front-end</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="languages" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+              <li>
+                English (C1-C2)
+                <a href="https://www.efset.org/cert/Q5VoPe">
+                  <img
+                    class="languages__img"
+                    src="images/efset.png"
+                    alt="EF SET Certificate"
+                  />
+                </a>
+              </li>
+              <li>German (B2)</li>
+              <li>Spanish (A2)</li>
+              <li>Russian (Native)</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <ul class="footer__list">
+            <li>
+              <a href="https://github.com/andreizpgh">My GitHub</a>
+            </li>
+            <li>2023</li>
+            <li>
+              <a href="https://rs.school/js/">
+                <img
+                  class="rss-logo"
+                  src="images/rs-logo.svg"
+                  alt="RS School Logo"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
