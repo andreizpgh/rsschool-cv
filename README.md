@@ -1,3 +1,3 @@
-https://andreizpgh.github.io/rsschool-cv/cv
+[CV](https://andreizpgh.github.io/rsschool-cv/)
 
-https://andreizpgh.github.io/rsschool-cv/
+[MarkDown version](https://andreizpgh.github.io/rsschool-cv/cv)
