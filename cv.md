@@ -13,6 +13,7 @@ Having been interested in programming since high school, I nevertheless decided 
 ### Skills:
 - HTML5
 - CSS3 (SASS/SCSS, BEM)
+- JavaScript
 - Gulp
 - Git, GitHub
 - Neovim, VS Code
@@ -21,8 +22,10 @@ Having been interested in programming since high school, I nevertheless decided 
 
 ### Code Example
 ``` js
-function multiply(a, b){
-    return a * b
+function alphabetPosition(text) {
+  const alpha = 'abcdefghijklmnopqrstuvwxyz';
+  const result = text.toLowerCase().match(/[a-z]/g) || [];
+  return result.map((l) => alpha.indexOf(l) + 1).join(' ');
 }
 ```
 
