@@ -1,5 +1,5 @@
 ## Preview
-![CV](https://github.com/user-attachments/assets/efc1cbce-faf4-4b2e-8a35-13b2265d28d0)
+![CV-optimized](https://github.com/user-attachments/assets/c108ad9f-0f82-4222-9004-43f62d573049)
 
 ## Links
 [CV](https://andreizpgh.github.io/rsschool-cv/)
